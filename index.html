@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <title>ToDo List</title>
+</head>
+
+<body>
+
+  <div class="main-header">
+  <header id="main-header" class="container">
+    <h2 id="todo-title"><span>ToDo List</span></h2>
+    <form id="form" action="#">
+      <input type="text" name="todo-input" class="text-input" id="todo-input" autocomplete="off"
+        placeholder="New ToDo" />
+      <input type="submit" id="add-btn" class="btn" value="Add ToDo" />
+    </form>
+  </header>
+
+
+  <main id="main-section" class="container">
+    <div id="filter-box">
+      <input type="text" name="filter" class="text-input" id="filter" autocomplete="off" placeholder="Filter ToDo" />
+    </div>
+    <ul id="todo-list"></ul>
+    <div id="clear-btn-box">
+      <a href="#" id="clear-btn" class="btn">Clear All</a>
+    </div>
+  </main>
+
+</div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
